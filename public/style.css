@@ -554,8 +554,16 @@ video {
   --tw-contain-style:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
+}
+
+.sticky {
+  position: sticky;
 }
 
 .bottom-2 {
@@ -624,6 +632,10 @@ video {
 
 .h-\[85vh\] {
   height: 85vh;
+}
+
+.h-\[55vh\] {
+  height: 55vh;
 }
 
 .w-\[\] {
@@ -700,6 +712,34 @@ video {
 
 .w-\[1280px\] {
   width: 1280px;
+}
+
+.w-\[85vh\] {
+  width: 85vh;
+}
+
+.w-\[105vh\] {
+  width: 105vh;
+}
+
+.w-\[105vw\] {
+  width: 105vw;
+}
+
+.w-\[85vw\] {
+  width: 85vw;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.max-w-screen-sm {
+  max-width: 640px;
 }
 
 .cursor-pointer {
@@ -981,6 +1021,14 @@ video {
     display: none;
   }
 
+  .md\:w-32 {
+    width: 8rem;
+  }
+
+  .md\:max-w-6xl {
+    max-width: 72rem;
+  }
+
   .md\:space-x-40 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(10rem * var(--tw-space-x-reverse));
@@ -1004,6 +1052,15 @@ video {
   .lg\:mx-56 {
     margin-left: 14rem;
     margin-right: 14rem;
+  }
+
+  .lg\:w-48 {
+    width: 12rem;
+  }
+
+  .lg\:w-max {
+    width: -moz-max-content;
+    width: max-content;
   }
 
   .lg\:space-x-56 > :not([hidden]) ~ :not([hidden]) {
