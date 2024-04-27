@@ -554,12 +554,198 @@ video {
   --tw-contain-style:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .bottom-2 {
   bottom: 0.5rem;
 }
 
 .bottom-5 {
   bottom: 1.25rem;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-none {
+  float: none;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[5vh\] {
+  height: 5vh;
+}
+
+.h-\[10vh\] {
+  height: 10vh;
+}
+
+.h-\[15vh\] {
+  height: 15vh;
+}
+
+.h-\[8vh\] {
+  height: 8vh;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[10vh\] {
+  width: 10vh;
+}
+
+.w-\[100vh\] {
+  width: 100vh;
+}
+
+.w-\[1000vh\] {
+  width: 1000vh;
+}
+
+.w-\[500vh\] {
+  width: 500vh;
+}
+
+.w-\[200vh\] {
+  width: 200vh;
+}
+
+.w-\[250vh\] {
+  width: 250vh;
+}
+
+.w-\[350vh\] {
+  width: 350vh;
+}
+
+.w-\[300vh\] {
+  width: 300vh;
+}
+
+.w-\[300vw\] {
+  width: 300vw;
+}
+
+.w-\[10vw\] {
+  width: 10vw;
+}
+
+.w-\[100vw\] {
+  width: 100vw;
+}
+
+.w-\[170vw\] {
+  width: 170vw;
+}
+
+.w-\[160vw\] {
+  width: 160vw;
+}
+
+.w-\[150vw\] {
+  width: 150vw;
+}
+
+.w-\[120vw\] {
+  width: 120vw;
+}
+
+.w-\[130vw\] {
+  width: 130vw;
+}
+
+.w-\[0vw\] {
+  width: 0vw;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.place-content-end {
+  place-content: end;
+}
+
+.place-content-around {
+  place-content: space-around;
+}
+
+.place-content-evenly {
+  place-content: space-evenly;
+}
+
+.place-content-stretch {
+  place-content: stretch;
+}
+
+.place-items-center {
+  place-items: center;
+}
+
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-24 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(6rem * var(--tw-space-x-reverse));
+  margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-44 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(11rem * var(--tw-space-x-reverse));
+  margin-left: calc(11rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.-space-x-96 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(-24rem * var(--tw-space-x-reverse));
+  margin-left: calc(-24rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .border {
@@ -597,6 +783,63 @@ video {
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
+.object-none {
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+.text-\[1px\] {
+  font-size: 1px;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
+}
+
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .font-light {
   font-weight: 300;
 }
@@ -617,4 +860,43 @@ video {
 .text-\[\#F66E1A\] {
   --tw-text-opacity: 1;
   color: rgb(246 110 26 / var(--tw-text-opacity));
+}
+
+.text-\[12\] {
+  color: 12;
+}
+
+.text-\[1\] {
+  color: 1;
+}
+
+.hover\:block:hover {
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:inline-block {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mx-56 {
+    margin-left: 14rem;
+    margin-right: 14rem;
+  }
 }

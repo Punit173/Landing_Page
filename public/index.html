@@ -12,22 +12,41 @@
     <style>
         *{
             font-family: "Inter", sans-serif;
+            margin: 0;
+            padding: 0;
         }
     </style>
 </head>
 <body>
-    <nav>
-        <div><img src="https://s3-alpha-sig.figma.com/img/2d88/9a81/7a335ce362e5016144ca44a7bc7d5d18?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n0533T-2cvNYKH0KIOyJk8p7k7ovsyFXN~gXJScvoLWrulHvkHPVkKS3UFX4YFl~-KQU~OC6SxHND5nEljtZ46QYbZwYm9LW8TjZQ4iXOjikw~2G9e806TDag0RSTGWb4K1g0dRGzABHdWCx9GkrsnFwqs56qxq1Ei58QRzQKEaU~~IPoDsvLGW-~fcS-jQpyOHMT2aDNSjFkuoiWbN34ry15pQunFH13wVidLaBlfab2NsN8koVVNPpDNWIyeN-hCNNSZPyS680ASMcKEGl1ogV6xD6YnVctztRYi4ceGejHSo8DX6YptwXZy-xOSYAwtQl3rort8pJ37mIqYKFYQ__" alt=""></div>
-        <div>
-            <ul>
+    <nav class="flex place-content-evenly text-xl place-items-center h-[15vh]">
+        <div><img src="Srmseal.png" alt="logo" class="h-[8vh]"></div>
+        <div class="hidden md:block">
+            <ul class="flex space-x-6 place-items-center cursor-pointer">
                 <li>ABOUT</li>
-                <li>LOCATIONS</li>
+                <li class="overflow-hidden"> 
+                    <div class="float-left overflow-hidden">
+                        <button class="dropbtn">LOCATION
+                          <i class="fa-solid fa-caret-down"></i>
+                        </button>
+                        <div class="hidden absolute z-1">
+                          <a href="#" class="float-none hover:block">Link 1</a>
+                          <a href="#" class="float-none hover:block">Link 2</a>
+                          <a href="#" class="float-none hover:block">Link 3</a>
+                        </div>
+                      </div></li>
                 <li>WORKSPACES</li>
+                <li><button class="text-[#F66E1A] block font-extralight border-solid border-2 border-[#F66E1A] text-[12px] p-2">BOOK A SEAT</button></li>
+                <li class="sm:inline-block md:hidden"><i class="fa-solid fa-bars cursor-pointer"></i></li>
             </ul>
         </div>
-        <div>
-            <button class="text-[#F66E1A] font-extralight border-solid border-2 border-[#F66E1A] ">BOOK A SEAT</button>
+        <!-- <div class="flex space-x-2 ">
+            <div class="flex place-items-center md:hidden">
+                <button class="text-[#F66E1A] block font-extralight border-solid border-2 border-[#F66E1A] text-[12px] p-2">BOOK A SEAT</button>
+            </div>
+            <div class="flex place-items-center md:hidden cursor-pointer">
+        </div> -->
         </div>
     </nav>
+    <script src="https://kit.fontawesome.com/a972b744c3.js" crossorigin="anonymous"></script>
 </body>
 </html>
